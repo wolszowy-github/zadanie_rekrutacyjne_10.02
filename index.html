@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="center menu">
+      <div class="col-5 logoPhoto">
+        <img src="images/efi.png" alt="logo">
+        <img src="images/photo.png" alt="logo">
+        <div class="userMenu">
+          <div class="col-12 userName">Jan Kowalski</div>
+          <div class="userIcons"><img class="envelope" src="images/envelopeUP2.png" alt="koperta"><img class="wheel" src="images/zebatka.png" alt="zebatka"></div>
+        </div>
+      </div>
+      <nav class="col-4 icons">
+        <div class="col-3">
+          <img src="images/home.png" alt="home">
+          <div class="iconTxt">HOME</div>
+          <div class="circle"></div>
+        </div>
+        <div class="col-3">
+          <img src="images/analysis.png" alt="analysis">
+          <div class="iconTxt">ANALYSE</div>
+          <div class="circle"></div>
+        </div>
+        <div class="col-3">
+          <img src="images/plan.png" alt="plan">
+          <div class="iconTxt">PLAN</div>
+          <div class="circle"></div>
+        </div>
+        <div class="col-3">
+          <img src="images/earn.png" alt="">
+          <div class="iconTxt">EARN</div>
+          <div class="circle"></div>
+        </div>
+      </nav>
+      <div class="col-3 zoomOff">
+        <div class="left"><img src="images/zoom.png" alt="zoom"></div>
+        <div class="right"><img src="images/off.png" alt="off"></div>
+      </div>
+      <div class="col-3 hamburgerMenu">
+        <div class="burgerItself">
+          <div class="burgerLine"></div>
+          <div class="burgerLine"></div>
+          <div class="burgerLine"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hamburgerRoll">
+      <div class="menuWraper">
+        <div><img src="images/home.png" alt="home">HOME</div>
+        <div><img src="images/analysis.png" alt="analyse">ANALYSE</div>
+        <div><img src="images/plan.png" alt="plan">PLAN</div>
+        <div><img src="images/earn.png" alt="earn">EARN</div>
+        <div><img class="suffMarg" src="images/zoom.png" alt="zoom">SEARCH</div>
+        <div><img class="suffMarg" src="images/off.png" alt="off">LOG OUT</div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="center financeSect">
+      <h2 class="col-10 setLeft">Finance life stream</h2>
+      <div class="col-4 setRight">
+        <p class="nonColored">Add</p>
+        <div class="colored">BANK</div>
+        <div class="colored">PAYMENT</div>
+      </div>
+    </div>
+    <div class="sectionWraper center">
+      <div class="analysis col-4">
+        <p>Accounts analysis</p>
+        <div class="onOffContainer">
+          <p>OFF</p>
+          <p class="backgoundGreen">ON</p>
+        </div>
+      </div>
+      <div class="summary col-8">
+        <div class="col-4">
+          <p>Balance</p>
+          <p><span>7 200,34</span> PLN</p>
+        </div>
+        <div class="col-4">
+          <p>Available funds</p>
+          <p><span>7 200,34</span> PLN</p>
+        </div>
+        <div class="col-4">
+          <p>Scheduled payments</p>
+          <p><span>2 200,34</span> PLN</p>
+        </div>
+      </div>
+    </div>
+    <section class="center graphDiv">
+      <div class="graphSection"></div>
+    </section>
+    <section class="productHistory center">
+      <div class="col-6 products">
+        <p class="col-12">Products</p>
+        <div class="row">
+          <div class="prodButt col-6">
+            <img src="images/wallet.png" alt="wallet">
+            <img class="hidden" src="images/walletWhite.png" alt="wallet">
+            <div class="innerTxt">
+              <p>Wallets[3]</p>
+              <p>500,00 PLN</p>
+            </div>
+          </div>
+          <div class="prodButt col-6">
+            <img src="images/piggy.png" alt="pig">
+            <img class="hidden" src="images/piggyWhite.png" alt="pig">
+            <div class="innerTxt">
+              <p>Deposits[2]</p>
+              <p>10 000,00 PLN</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="prodButt col-6">
+            <img src="images/flagMoney.png" alt="flagMoney">
+            <img class="hidden" src="images/flagMoneyWhite.png" alt="flagMoney">
+            <div class="innerTxt">
+              <p>Accounts</p>
+              <p>7 200,00 PLN</p>
+            </div>
+          </div>
+          <div class="prodButt col-6">
+            <img src="images/iconGraph.png" alt="graphIcon">
+            <img class="hidden" src="images/iconGraphWhite.png" alt="graphIcon">
+            <div class="innerTxt">
+              <p>Funds[3]</p>
+              <p>7 000,00 PLN</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="prodButt col-6">
+            <img src="images/pointerGray.png" alt="pointer">
+            <img class="hidden" src="images/pointer.png" alt="pointer">
+            <div class="innerTxt">
+              <p>Bank loans</p>
+              <p>- 127 000,00 PLN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 history">
+        <p class="col-6">History</p>
+        <table class="col-12">
+          <tbody>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>ATM widthdrawal, Cracow, Bracka Street</p>
+                <p>Cash <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-500,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+            <tr>
+              <td class="col-2">29.06</td>
+              <td class="col-7">
+                <p>Gas station, Warsaw, Woloska Street</p>
+                <p>Gas <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              </td>
+              <td class="col-3"><p><span>-100,00</span> PLN</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+
+  </section>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="https://use.fontawesome.com/57cf28712e.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@media only screen and (max-width: 927px){
+  section .sectionWraper .summary p{
+    font-size: 15px;
+  }
+  .products .row .prodButt{
+    flex-direction: column;
+  }
+  .productHistory{
+    display: block;
+  }
+  .products, .history{
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+    header{
+      nav{
+        display: none;
+      }
+      .hamburgerMenu{
+        display: flex;
+      }
+      .zoomOff{
+        display: none;
+      }
+      .logoPhoto{
+        width: 75%;
+      }
+    }
+    section .financeSect .setLeft{
+      font-size: 37px;
+    }
+  .products .row .prodButt{
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  header .logoPhoto img {
+    width: 40%;
+  }
+  header .logoPhoto .envelope {
+    width: 78%;
+  }
+  section .financeSect .setLeft{
+    font-size: 25px;
+    display: flex;
+    // align-items: baseline;
+  }
+  section .sectionWraper{
+    display: block;
+    .analysis{
+      width: 100%;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    .summary{
+      width: 100%;
+      margin-top: 15px;
+      div{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .history table tr{
+    font-size: 13px;
+    td p{
+      font-size: 13px;
+    }
+  }
+  header .logoPhoto .userName{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  section .financeSect{
+    display: block;
+    .setLeft{
+      font-size: 32px;
+    }
+    .setLeft, .setRight{
+      margin-top: 15px;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  section .sectionWraper .summary{
+    display: block;
+    div{
+      margin-top: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px){
+  section .sectionWraper{
+    .summary{
+      width: 100%;
+      margin-top: 10px;
+      div{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        p{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
